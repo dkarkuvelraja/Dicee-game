@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(117, 66, 0);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ply {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.ply1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(231, 250, 250);
+}
+.ply2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(231, 250, 250);
+}
+.dicee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-start: var(300px);
+    padding-left: 400px;   
+}
+.dicee1 {
+    height: 90px;
+    width: 80px;
+    background-color: rgb(255, 132, 43);
+    border-radius: 5%;
+    padding: 10px ;
+}
+.dicee2 {
+    height: 90px;
+    width: 80px;
+    background-color: rgb(255, 132, 43);
+    border-radius: 5%;
+    padding: 10px  ;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
